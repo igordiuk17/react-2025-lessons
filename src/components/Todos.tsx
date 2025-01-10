@@ -1,7 +1,6 @@
 import {useEffect, useState} from "react";
 
-// import {ITodo} from "../models/iTodo.ts";
-// import {ITodo} from "../models/ITodo.ts";
+
 import {ITodo} from "../models/ITodo.ts";
 import {Todo} from "./Todo.tsx";
 

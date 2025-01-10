@@ -4,7 +4,7 @@ import './Todo.css'
 
 interface TodoProps{
     item:ITodo
-};
+}
 export const Todo= ({item}:TodoProps)=>{
     return (
         <>

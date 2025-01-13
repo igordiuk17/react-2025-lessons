@@ -1,9 +1,6 @@
-import {createBrowserRouter,Outlet} from "react-router";
-function MainLayout(){
-    return<>
-        <Outlet/>
-    </>;
-}
+import {createBrowserRouter} from "react-router";
+import MainLayout from "../layouts/MainLayout.tsx";
+
 
 export const routes = createBrowserRouter([
     {

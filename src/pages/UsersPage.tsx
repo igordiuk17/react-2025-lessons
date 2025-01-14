@@ -1,7 +1,7 @@
 export const UserPage = ()=>{
 return(
     <>
-        UserPage
+        UsersPage
     </>
 );
 };

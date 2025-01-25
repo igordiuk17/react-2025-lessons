@@ -1,7 +1,8 @@
-import {useEffect, useState} from "react";
+import {useEffect } from "react";
 import {getAll} from "../../servises/general.api.service.ts";
 import {IbaseResponsModel} from "../../models/IbaseResponsModel.ts";
 import {IUser} from "../../models/IUser.ts";
+import {useState} from "react";
 
 export const UsersComponent = () => {
     const [users,setUsers]= useState()<IUser[]>([]);

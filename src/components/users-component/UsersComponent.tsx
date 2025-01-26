@@ -1,5 +1,5 @@
 import {useEffect } from "react";
-import {getAll} from "../../servises/general.api.service.ts";
+import {getAll} from "../../service/general.api.service.ts";
 import {IbaseResponsModel} from "../../models/IbaseResponsModel.ts";
 import {IUser} from "../../models/IUser.ts";
 import {useState} from "react";

@@ -5,7 +5,7 @@ import {IUser} from "../../models/IUser.ts";
 import {useState} from "react";
 
 export const UsersComponent = () => {
-    const [users,setUsers]= useState()<IUser[]>([]);
+    const [users,setUsers]= useState<IUser[]>([]);
     useEffect(()=>{
         getAll<IbaseResponsModel & {users:IUser[]}>('/users')
             .then(value=>setUsers (value.users))
